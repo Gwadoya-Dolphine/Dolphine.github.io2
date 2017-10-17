@@ -7,28 +7,18 @@
 
 </head>
 <body>
-
-
   <div class="container-fluid" id="rec">
-   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-    
-
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-
-
-
-    <!-- FORM  -->      
+    <div class="row">
+       <div class="col-md-2"></div>
+       <div class="col-md-8">
+         <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<!-- FORM  -->      
     <div class="col-md-12">
-
-     <form class="form-horizontal" id="form-edit-client">
-      <fieldset>
-
-        <!-- Form Name -->
-        <legend><h1 style=" color: white;font-size: 26px;text-align: center;font-weight: bold;font-family: cursive;margin-top: 150px;px">WELCOME TO DELICIOUS YUMMY RECIPES</h1></legend>
-
-        <!-- Text input-->
+          <form class="form-horizontal" id="form-edit-client">
+          <fieldset>
+      <!-- Form Name -->
+            <legend><h1 style=" color: white;font-size: 26px;text-align: center;font-weight: bold;font-family: cursive;margin-top: 150px;px">WELCOME TO DELICIOUS YUMMY RECIPES</h1></legend>
+            <!-- Text input-->
         <div class="form-group">
           <label class="col-md-4 control-label" for="client-name"><h2 style="color: white;font-size: 16px;">NAME OF FOOD</h2></label>  
           <div class="col-md-4">
@@ -57,14 +47,11 @@
             <button id="btn-save" name="btn-save" class="btn btn-danger" onclick="addClient()">Save</button>
           </div>
         </div>
-
-  </div> 
+     </div> 
 <!-- LIST -->
   <div class=col-md-12>
-
-       <legend><h2 style="color: white;font-size: 22px;text-align: center;margin-top: 20px;">List of food types and their Ingredients</h2></legend>
-
-     
+         <legend>
+             <h2 style="color: white;font-size: 22px;text-align: center;margin-top: 20px;">List of food types and their Ingredients</h2></legend>
       <table class="table table-bordered table-condensed table-hover">
         <thead>
           <tr id="mm" style="color: white">
@@ -72,29 +59,19 @@
             <th>Ingredients</th>
             <th>Actions</th>
           </tr>
-
         </thead>
         <tbody id="form-list-client-body">
-
-        </tbody>
-      </table>
-    
-    
-  </div>
-
-
-  <br> 
-
-  <!-- view -->
-<h3 style="color:white;text-align: center;"><a href="landingpage.html"><h1 style="color: white;font-size: 18px;text-decoration: none;">BACK</h1></a></h3>
-
+     </tbody>
+   </table>
+ </div>
+<br> 
+<!-- view -->
+<h3 style="color:white;text-align: center;"><a href="index.html"><h1 style="color: white;font-size: 18px;text-decoration: none;">BACK</h1></a></h3>
 </div>
-<div class="col-md-2"></div>
+ <div class="col-md-2"></div>
 
 </div>
 </div>
-
-
 <script type="text/javascript">
   var clients=[];
   var myIndex;
@@ -107,8 +84,7 @@
     clients.push(newClient)
     displayClients()
   }
-
-  function displayClients(){
+function displayClients(){
     document.getElementById("form-list-client-body").innerHTML=""
     for (i=0;i<clients.length;i++){
       var myTr=document.createElement("tr")
@@ -177,17 +153,8 @@
   }
  
 </script>
-
-
-
-
- 
-  
-
-
-
-   </div>
-</div>
+    </div>
+      </div>
 
 </body>
 </html>
