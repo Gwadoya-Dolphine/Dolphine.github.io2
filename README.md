@@ -1,5 +1,5 @@
 # Dolphine.github.io2
-How MY Yummy Recipe App Works
+##How MY Yummy Recipe App Works
 
 
 First,when one opens this app the first thing that he/she sees is the landing page.This page is very interactive and impressive in tnat it has a short background video which one can watch as he/she plans to login/sign-up.It also has the sign up and sign in at the top right corner.The it has a login form which is a short cut for login if one has already an account.
