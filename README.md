@@ -1,6 +1,6 @@
 # Dolphine.github.io2
 
-[![Build Status](https://travis-ci.org/Gwadoya-Dolphine/Dolphine.github.io2.svg?branch=master)](https://travis-ci.org/Gwadoya-Dolphine/Dolphine.github.io2)
+https://travis-ci.org/Gwadoya-Dolphine/Dolphine.github.io2.svg?branch=master
 How Doly Yummy Recipe App Works
 
 This is an app that enables one to create,view and edit recipes of his/herchoice.
