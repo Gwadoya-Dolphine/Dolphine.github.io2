@@ -1,6 +1,7 @@
 # Dolphine.github.io2
 
 [![Build Status](https://travis-ci.org/Gwadoya-Dolphine/Dolphine.github.io2.svg?branch=master)](https://travis-ci.org/Gwadoya-Dolphine/Dolphine.github.io2)
+[![Coverage Status](https://coveralls.io/repos/github/Gwadoya-Dolphine/Dolphine.github.io2/badge.svg?branch=master)](https://coveralls.io/github/Gwadoya-Dolphine/Dolphine.github.io2?branch=master)
 
 How Doly Yummy Recipe App Works
 
